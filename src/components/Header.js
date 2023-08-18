@@ -1,6 +1,6 @@
-import './header.scss'
-import Logo from '../../assets/logo.png'
-import Navbar from '../navbar/Navbar'
+import '../style/header.scss'
+import Logo from '../assets/logo.png'
+import Navbar from './Navbar'
 
 export default function Header() {
 	return (

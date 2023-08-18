@@ -1,10 +1,10 @@
-@import '../../sass/main.scss';
+@import '../sass/main.scss';
 
 .banner{
     position: relative;
     @include flex;
     border-radius: 25px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/home_cover.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/home_cover.png');
     background-position: center;
     background-size: cover;
     height: 223px;
@@ -22,7 +22,7 @@
         height: 223px;
         max-width: 95%;
         margin: 43px auto;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/about_cover.png');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/about_cover.png');
         background-position: center;
         background-size: cover;
         @media screen and (max-width: 550px){

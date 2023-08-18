@@ -1,6 +1,6 @@
-import './gallery.scss'
-import datas from '../../data/data'
-import Card from '../card/Card'
+import '../style/gallery.scss'
+import datas from '../data/data'
+import Card from './Card'
 
 export default function Gallery() {
 
