@@ -12,7 +12,6 @@ export default function Slider({imageSlider}) {
         if(currentIndex === imageSlider.length - 1)
             setCurrentIndex(0)
     }
-
     const prevSlide = () => {
         setCurrentIndex(currentIndex - 1)
         if(currentIndex === 0)
